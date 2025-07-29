@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for dir in level{0..9} bonus{0..3} end
+	do cd $dir && ./solve.py && cd ..
+done
